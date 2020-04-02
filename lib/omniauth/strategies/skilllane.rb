@@ -12,6 +12,10 @@ module OmniAuth
         token_url: '/connect/token'
       }
 
+      def client_options
+        options.client_options.merge(options.client_options)
+      end
+
       uid {
         raw_info['id']
       }
