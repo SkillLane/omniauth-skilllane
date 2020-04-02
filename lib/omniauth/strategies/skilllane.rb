@@ -7,7 +7,7 @@ module OmniAuth
 
       option :name, :skilllane
       option :client_options, {
-        site: 'http://localhost:4000',
+        site: 'http://localhost:5000',
         authorize_url: '/connect/authorize',
         token_url: '/connect/token'
       }
