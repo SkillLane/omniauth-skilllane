@@ -34,7 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17.2)
+  bundler (~> 1.16.0)
   omniauth-skilllane!
   rake (~> 10.0)
 
