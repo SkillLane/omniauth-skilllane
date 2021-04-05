@@ -13,6 +13,9 @@ module OmniAuth
       }
 
       def client_options
+        params = request.env["omniauth.params"]
+        acr_values = params["acr_values"]
+        options.client_options[:acr_values] = acr_values
         options.client_options.merge(options.client_options)
       end
 
